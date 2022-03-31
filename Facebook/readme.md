@@ -5,6 +5,7 @@
    To be able to plot and view our data set on python, we had to use different types of module libraries available in python such as pandas, matplot and scipy.stats. 
 
    This graph demonstrates our hypothesis on which generation uses more reactions throughout the years of 2011 to 2020. The usage of reactions was stronger during the first half of the decade among the younger generation peaking in the year 2015 and then taking a sharp decline in 2016 while the older generation started to becoming more aware of the reaction features. As more users from the older generation started using Facebook, there was a decline of younger users engaging on Facebook and that is represented by 2016 forward.
+
 ![image](https://user-images.githubusercontent.com/75848451/152430827-78fc3c91-fb06-42b8-a678-0178550a2198.png)
 
    Regarding the time affecting the amount of likes and reviewing the graphs, it was clear that time you post directly correlates to the amount of reactions that you might receive. The higher engagements were between 1PM - 3PM and 10PM - 1AM; these time frames held the highest reaction responses. 
