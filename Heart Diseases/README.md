@@ -1,4 +1,4 @@
-                                            Predicting Heart Diseases In Medical Patients
+# Predicting Heart Diseases In Medical Patients
 
   The dataset we chose was the Heart Disease dataset provided by UCI Machine Learning Repository. The dataset column to be tested will be the “target” column which will tested against the remaining columns to determine if we will be able to predict which patients will have heart diseases and if we are able to predict these cases. Through our different process methods, we hope to identify which will provide us the best results.
   
