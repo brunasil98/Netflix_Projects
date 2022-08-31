@@ -15,8 +15,8 @@
   
 ![image](https://user-images.githubusercontent.com/75848451/187599722-a0ddc415-41eb-4724-94b8-4e1b30e5cecf.png)
 
-  We chose 5 differents models, Logist Regression, KNeighborsClassifier, Decision tree, Random Forest, and SVM, and tune their hyperparameters, using sklearn modulation. We split our data 80% as train the other 20% as test. To evaluate the model, we calculate the accurancy value, the recall, and AUC values. The accuracy of the best model was 86,96%. The model achived its goal, which was decreasing the false negative from 0.19 to only 0.086 error.
+  We chose 5 differents models (Logist Regression, K-Neighbors, Decision tree, Random Forest, and SVM) and tuned their hyperparameters using sklearn modulation. We split our data 80% as train the other 20% as test. To evaluate the model, we calculate the accurancy, the recall, and AUC values. The K-Neighbors has the best accuracy with 84,9%, but the SVC has the best recall value, as 97%. 
 
-![image](https://user-images.githubusercontent.com/75848451/152655021-12069f71-9784-418e-b09a-dcacd0c0d4fc.png)
+!![image](https://user-images.githubusercontent.com/75848451/187725106-6e8aebda-99ae-4e2f-8d78-8bfe04e8bd3a.png)
 
- In this project, we created models to predict if the person has a heart diseases or not. We used two different approaches, one a linear regression, and second random forest classifier with balanced data. The second model has a better prediction and smaller error in false negative, which is crucial in biomedical field. The next steps would be the analysis of the false negative and try to find any relation between them. 
+ In this project, we created models to predict if the person has a heart diseases or not. We used five different approaches, one a linear regression,  second a K-Neighbors, third a  random forest classifier,  fourth decision tree and fifth a SVM. The K-Neighbords has a better prediction and SVC smaller type 2-error \e, which is crucial in biomedical field. 
