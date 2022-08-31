@@ -6,15 +6,16 @@
 
 ![image](https://user-images.githubusercontent.com/75848451/152437074-09b7a1eb-c9cf-49a1-be85-a364a3d4062a.png)
 
+
   The data has a bad distribution, while the first half of the rows was positive diseases, the other half was no diseases. 
 
 ![image](https://user-images.githubusercontent.com/75848451/152438399-da6810c5-dc60-495a-b4f8-e9220d152f1b.png)
 
-  For this first model, we chose to build a Logistic Regression model using sklearn modulation. We split our data 80% as train the other 20% as test. To visualize better the results, we plotted a confusion matrix, which compares the actual values and the predicted values of the model. The accuracy of this model was 84%. The performance was better than what we expected, the high accuracy and low false negative for a Logistic Regression without modulated the data, was surprising.  
+  The data is unbalanced, while the true values represent almost 55% of the data. 
+  
+![image](https://user-images.githubusercontent.com/75848451/187599722-a0ddc415-41eb-4724-94b8-4e1b30e5cecf.png)
 
-![image](https://user-images.githubusercontent.com/75848451/152655026-5e57d4ba-7d40-4cbc-bee0-a074e56f459b.png)
-
- In our Second model was a Random Forest Classifier. To train this model, we decided to balance the data set. the model reduced the false negative which was our target due to the problem it can bring. The accuracy of this model was 86,96%. The model achived its goal, which was decreasing the false negative from 0.19 to only 0.086 error.
+  We chose 5 differents models, Logist Regression, KNeighborsClassifier, Decision tree, Random Forest, and SVM, and tune their hyperparameters, using sklearn modulation. We split our data 80% as train the other 20% as test. To evaluate the model, we calculate the accurancy value, the recall, and AUC values. The accuracy of the best model was 86,96%. The model achived its goal, which was decreasing the false negative from 0.19 to only 0.086 error.
 
 ![image](https://user-images.githubusercontent.com/75848451/152655021-12069f71-9784-418e-b09a-dcacd0c0d4fc.png)
 
