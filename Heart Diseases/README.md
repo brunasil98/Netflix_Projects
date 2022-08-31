@@ -19,4 +19,4 @@
 
 !![image](https://user-images.githubusercontent.com/75848451/187725106-6e8aebda-99ae-4e2f-8d78-8bfe04e8bd3a.png)
 
- In this project, we created models to predict if the person has a heart diseases or not. We used five different approaches, one a linear regression,  second a K-Neighbors, third a  random forest classifier,  fourth decision tree and fifth a SVM. The K-Neighbords has a better prediction and SVC smaller type 2-error \e, which is crucial in biomedical field. 
+ In this project, we created models to predict if the person has a heart diseases or not. We used five different approaches, one a linear regression,  second a K-Neighbors, third a  random forest classifier,  fourth decision tree and fifth a SVM. The K-Neighbords has a better prediction and SVC smaller type II-error, which is crucial in biomedical field. 
